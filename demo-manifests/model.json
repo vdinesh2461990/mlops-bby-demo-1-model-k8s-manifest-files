@@ -8,7 +8,7 @@
         "name": "bby-demo-1-serv"
     },
     "spec": {
-        "name": "bby-demo-1-v1-0d200b26-dpl",
+        "name": "bby-demo-1-v2-e5f261d6-dpl",
         "oauth_key": "oauth-key",
         "oauth_secret": "oauth-secret",
         "predictors": [
@@ -17,7 +17,7 @@
                     "spec": {
                         "containers": [
                             {
-                                "image": "127.0.0.1:5000/vdinesh1990/bby-demo-1:v1",
+                                "image": "127.0.0.1:5000/vdinesh1990/bby-demo-1:v2",
                                 "imagePullPolicy": "IfNotPresent",
                                 "name": "model",
                                 "resources": {
@@ -38,7 +38,7 @@
                     },
                     "type": "MODEL"
                 },
-                "name": "bby-demo-1-v1-0d200b26-pred",
+                "name": "bby-demo-1-v2-e5f261d6-pred",
                 "replicas": 1
             }
         ]
